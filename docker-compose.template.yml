@@ -5,7 +5,7 @@ services:
     image: exira/your-site
 
   nginx:
-    image: exira/nginx:1.10.0
+    image: exira/nginx:1.11.3
     restart: always
     ports:
      - 80:80
