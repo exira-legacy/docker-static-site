@@ -1,1 +1,1 @@
-docker build -t exira/data-site .
+docker build -t exira/data-static-site .
