@@ -1,1 +1,1 @@
-FROM exira/data-site
+FROM exira/data-static-site
