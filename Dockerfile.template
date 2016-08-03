@@ -1,3 +1,3 @@
 FROM exira/data-static-site
 
-# Remember to do openssl dhparam -out /etc/nginx/ssl/dhparams.pem 4096
+# Remember to do openssl dhparam -out certs/dhparams.pem 4096
