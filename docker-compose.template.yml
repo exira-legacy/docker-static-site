@@ -13,4 +13,6 @@ services:
     depends_on:
      - site
     volumes_from:
-     - site:ro
+     - site:
+    environment:
+      VIRTUAL_HOST: 'example.org'
