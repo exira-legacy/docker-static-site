@@ -7,7 +7,7 @@
  * (Optionally) create a `certs` folder with SSL certificate files.
  * In case of a `certs` folder, remember to run `openssl dhparam -out certs/dhparams.pem 4096`
  * Copy `Dockerfile.template` to `Dockerfile`
- * Copy `docker-compose.template.yml` to `docker-compose.yml`
+ * Copy `docker-compose.template.yml` to `docker-compose.yml` and edit as needed (`VIRTUAL_HOST`, ...)
  * Build with `docker build -t exira/your-site .`
  * Run `docker-compose up -d`
 
