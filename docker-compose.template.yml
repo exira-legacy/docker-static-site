@@ -7,7 +7,7 @@ services:
   nginx:
     image: exira/nginx:1.11.3
     restart: always
-    ports:
+    expose:
      - 80
      - 443
     depends_on:
