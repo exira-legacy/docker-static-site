@@ -16,3 +16,8 @@ services:
      - site:
     environment:
       VIRTUAL_HOST: 'example.org'
+
+networks:
+  default:
+    external:
+      name: static-sites
